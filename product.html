@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+
+    <style>
+        body{
+            background:#111;
+            color:white;
+            font-family:Arial;
+            text-align:center;
+        }
+
+        h1{
+            margin-top:30px;
+            color:#a855f7;
+        }
+
+        .products{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+            margin-top:50px;
+        }
+
+        .card{
+            background:#1e1e1e;
+            padding:20px;
+            border-radius:15px;
+            width:250px;
+        }
+
+        img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        button{
+            margin-top:15px;
+            padding:12px 25px;
+            border:none;
+            border-radius:10px;
+            background:#9333ea;
+            color:white;
+            font-size:16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>PremiumThings Store</h1>
+
+<div class="products">
+
+<div class="card">
+    <img src="/static/keyboard.png">
+    <h2>RGB Keyboard</h2>
+    <button>Buy Now</button>
+</div>
+
+<div class="card">
+    <img src="/static/mouse.png">
+    <h2>Gaming Mouse</h2>
+    <button>Buy Now</button>
+</div>
+
+<div class="card">
+    <img src="/static/headphone.png">
+    <h2>Gaming Headphones</h2>
+    <button>Buy Now</button>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PremiumThings</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial;
+            background:black;
+            color:white;
+        }
+
+        .hero{
+            height:100vh;
+            background:url('/static/keyboard.png');
+            background-size:cover;
+            background-position:center;
+        }
+
+        .overlay{
+            background:rgba(0,0,0,0.7);
+            height:100%;
+            padding:40px;
+        }
+
+        .topbar{
+            display:flex;
+            justify-content:flex-end;
+        }
+
+        .topbar a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-size:18px;
+        }
+
+        h1{
+            font-size:70px;
+            margin-top:150px;
+        }
+
+        p{
+            font-size:25px;
+            color:#ccc;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:15px 35px;
+            background:#9333ea;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            font-size:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="hero">
+<div class="overlay">
+
+<div class="topbar">
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+</div>
+
+<h1>PremiumThings</h1>
+
+<p>Premium Gaming Accessories</p>
+
+<a class="btn" href="/product">Shop Now</a>
+
+</div>
+</div>
+
+</body>
+</html>
